@@ -3,6 +3,7 @@
 #include <unistd.h>
 #include <sys/wait.h>
 #include <sys/time.h>
+#include <string.h>
 char** copy_2_d_char_arr(int arr_size, int start_index, char** arr);
 
 int main(int argc, char *argv[]) {
